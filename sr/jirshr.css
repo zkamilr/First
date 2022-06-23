@@ -1,0 +1,10 @@
+td{
+	background: rgba(255, 165, 0, 0.3);
+	padding: 5px;
+}
+body{font-family: Oswald, sans-serif;}
+.light{font-weight: 300;}
+.regular{font-weight: 400;}
+.medium{font-weight: 500;}
+.semi-bold{font-weight: 600;}
+.bold{font-weight: 700;}

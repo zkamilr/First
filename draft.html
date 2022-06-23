@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="draft.css">
+    <link rel="shortcut icon" type="icon" href="kona.png">
+</head>
+<body style="margin-left:20px">
+
+<div id="up"><a href="#down">Вниз</a></div>
+
+<p>Fate/stay night Réalta Nua</p>
+
+<div class="x" id="xyz">Взвешиваем</div>
+
+<h5 id="ultimate-patch-version-091">Ultimate Patch version 0.9.1</h5>
+
+<h5 id="english-patch-version-340">English Patch version 3.4.0</h5>
+
+<hr />
+
+<h6 id="type-moon">© TYPE-MOON</h6>
+
+<h6 id="translation-mirror-moon">Translation © Mirror Moon</h6>
+
+<hr />
+
+<h2 id="table-of-contents">Table of Contents</h2>
+
+<ul>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#system-requirements">System requirements</a></li>
+<li><a href="#recommended-specs">Recommended specs</a></li>
+<li><a href="#about-the-patches">About the Patches</a></li>
+<li><a href="#switches-guide">Switches Guide</a></li>
+<li><a href="#faq">FAQ</a></li>
+<li><a href="#troubleshooting">Troubleshooting</a></li>
+<li><a href="#known-issues">Known issues</a></li>
+<li><a href="#credits">Credits</a></li>
+<li><a href="#version-history">Version History</a></li>
+</ul>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>This readme file contains important information about the game and patch. <br />
+Please read it before you start playing.</p>
+
+<h2 id="system-requirements">System requirements</h2>
+
+<ul>
+<li>Windows 7 with Service Pack 1 or newer</li>
+<li>3D accelerated graphics drivers</li>
+<li>Sound drivers</li>
+<li>6.5GB of free space (for installer + resulting "Ultimate Edition" with merge patch only; source unmerged Realta Nua data not accounted for)</li>
+</ul>
+
+<h2 id="recommended-specs">Recommended specs</h2>
+
+<ul>
+<li>2GHz dual core CPU or a GPU with hardware h.264/AVC decoding (read: any integrated or discrete GPU made in the last 10 years)</li>
+<li>Enough RAM to run Windows 7 without the OS bogging down too much (at least 2GB, ideally 3GB+)</li>
+<li>15GB of free space (installer + resulting "Ultimate Edition" with all patches + source unmerged Realta Nua data)</li>
+</ul>
+
+<h2 id="about-the-patches">About the Patches</h2>
+
+<p>Mandatory patches:</p>
+
+<ul>
+<li><code>patch.xp3</code>
+This is the <strong>core</strong> patch for the game laying the foundation for the following patches. <br />
+It merges all the routes to a single game, where each route unlocks after finishing the previous one - much like the classic and PS2/Vita releases. The title background will change depending on your progress in the game.
+Each route is unlocked after finishing the previous one, with the order being: Fate, Unlimited Blade Works, and Heaven's Feel.</li>
+</ul>
+
+<p>The following patches are optional, and even if you add them you can turn on/off all of their features via in-game switches:</p>
+
+<ul>
+<li><p><code>patch_lang_english.xp3</code>
+Adds English translation to the game.</p></li>
+<li><p><code>patch_hd.xp3</code>
+Adds HD graphics and wide mode support for the game.</p></li>
+<li><p><code>patch_op.xp3</code>
+Adds high resolution Vita, PS2, and classic OPs (opening movies). The classic OP are only available at the movie menu when unlocked, while the PS2 and Vita openings play at different parts of the game as well.</p></li>
+<li><p><code>patch_vita_ost.xp3</code>
+Adds an optional remixed version or the OST from the vita. In the BGM menu at the config menu, you can individually select for each track whether to use the original or remixed version.</p></li>
+<li><p><code>patch_h.xp3</code>
+Restores the sex scenes, nudity, and other sexual content from the class release.</p></li>
+<li><p><code>patch_decensor.xp3</code> <br />
+Adds decensored images for the H-scenes.</p></li>
+</ul>
+
+<h2 id="switches-guide">Switches Guide</h2>
+
+<ul>
+<li>Display Flowchart
+The flowchart does not unlock until you've cleared the game, which means getting all 5 endings and playing Last Episode. <br />
+After you complete LE you will have to restart the game for the flowchart options to appear.</li>
+</ul>
+
+<h2 id="faq">FAQ</h2>
+
+<blockquote>
+  <p>I have the original Fate Stay Night. Will the installer work with it?</p>
+</blockquote>
+
+<p>No. This project is for the digital download PC version of Realta Nua. You have to acquire all thee routes of that version in order to perform the installation.</p>
+
+<hr />
+
+<blockquote>
+  <p>Will this work on FHA?</p>
+</blockquote>
+
+<p><img src="supported_games.png" alt="Supported Games" title="Supported Games" /></p>
+
+<hr />
+
+<blockquote>
+  <p>How do I unlock the OP's in your Vita OP patch?</p>
+</blockquote>
+
+<p>The 2004 FSN Op's are added to the Movie menu upon completion of the prologue. The first time you complete the prologue it will be the PS2 Fate OP, after starting the UBW Route completing the prologue again will show the PS2 UBW Op, and and after starting the HF Route, completing the prologue again will show the PS2 HF Op. Completing Day 3 in Fate gives you the Fate Vita OP, Day 3 in UBW gives you the UBW Vita OP, and Day 3 in HF gives you the HF Vita OP.</p>
+
+<h2 id="troubleshooting">Troubleshooting</h2>
+
+<ul>
+<li><p>api-ms-win-crt-runtime-l1-1-0.dll is missing error when trying to run the installer or the visual novel itself
+Solution: download and install / reinstall Microsoft Visual C++ Redistributable 2015 x86
+<a href="https://download.microsoft.com/download/0/6/4/064F84EA-D1DB-4EAA-9A5C-CC2F0FF6A638/vc_redist.x86.exe">https://download.microsoft.com/download/0/6/4/064F84EA-D1DB-4EAA-9A5C-CC2F0FF6A638/vc_redist.x86.exe</a></p></li>
+<li><p>Member "kag" does not exist error when trying to run the visual novel itself (most commonly when trying to run an existing installation on a different PC)
+Solution: delete the file "config.ksc" located in the same folder as "Fate.exe" (that being the folder you installed the "Ultimate Edition" to)</p></li>
+<li><p>White screen after the scene with Saber in the moonlight (aka the end of the prologue)
+Solution: make sure the Media Foundation MP4 and Microsoft DTV-DVD audio and video decoders are not disabled via Codec Tweak Tool (in fact, do not disable anything on either list unless you really know what you're doing!)</p></li>
+</ul>
+
+<h2 id="known-issues">Known Issues</h2>
+
+<ul>
+<li><p>switching from full screen to wide screen and back creates white line-switching from SD to HD causes Decensored H CGs to not play in H scenes</p></li>
+<li><p>mature content CGs don't display unless you switch fom HD to SD then back to HD, and they only display in HD mode (this has been given a hotfix, but as a consequence the more violent images will be displayed if you have H scenes on, this only applies to the images and does not affect textual content however)</p></li>
+<li><p>UBW H scene crashes when skipping from skip menu-Openings crash if ctrl'ed through when in fullscreen-Skipping H scenes sometimes crashes the game</p></li>
+<li><p>The second Fate H scene and UBW H scene fail to register as previously read</p></li>
+<li><p>Title misaligned-Changing between HD and SD mode in music menu crashes the game</p></li>
+<li><p>Static noise heard at various places.</p></li>
+<li><p>in fullscreen with wide mode active on taller-than-16:9 ratio resolutions, the "activation area" for the mouse cursor to make the System/Display/Language/Patch menu appear is not actually at the top of the screen but located on the bottom of the letterboxing black bar that is on the top part of the screen - this is easily noticable on even widescreen displays if you simply set your screen resolution to something like 1024x768.</p></li>
+<li><p>The default window size for 768p displays will result in the program window "overflowing" the desktop and thereby running off the screen-The PS2 and especially the Vita Fate OP have the bottom of the video cut off when using window sizes larger than 800x600 / 1.0x, and larger window size ratios will cut off the bottom to even greater degrees.</p></li>
+<li><p>Blank window and/or visual garbage when a video player progam (such as MPC-HC) is open with a video</p></li>
+</ul>
+
+<h2 id="credits">Credits</h2>
+
+<h4 id="developer">Developer</h4>
+
+<p>TYPE-MOON</p>
+
+<h4 id="project-leads">Project leads</h4>
+
+<p>Jacktheinfinite101, Quibi, Koto</p>
+
+<h4 id="the-cast">The Cast</h4>
+
+<p><strong>Jacktheinfinite101</strong>: Lead editor, programming, some image editing.</p>
+
+<p><strong>Quibi</strong>: Lead programmer, installer creation.</p>
+
+<p><strong>Koto</strong>: Lead translator, text editing, some image editing.</p>
+
+<p><strong>Hintay</strong>: Additional programming.</p>
+
+<p><strong>Anonamous</strong>: Additional programming.</p>
+
+<p><strong>uyjulian</strong>: Krkrz development.</p>
+
+<p><strong>Waku Waku</strong>: Lead image editor, programming consultant, PS2 resources, legacy project.</p>
+
+<p><strong>ニサンカタンソ</strong>: Additional programming.</p>
+
+<p><strong>NM64</strong>: Audio editing, beta testing, media assets.</p>
+
+<p><strong>SmilingWolf</strong>: Upscaled image assets.</p>
+
+<p><strong>Hyarion</strong>: Initial translation of Fate H alts.</p>
+
+<p><strong>MeruP</strong>: Programming.</p>
+
+<p><strong>Terrafire</strong>: Script comparisons.</p>
+
+<p><strong>Dallas Hickan</strong>: Additional image editing.</p>
+
+<p><strong>GameCreater32</strong>: Custom voice replay icons, supplemental tools.</p>
+
+<p><strong>Commander Rase</strong>: Beta Testing.</p>
+
+<p><strong>Thryfe</strong>: Beta Testing.</p>
+
+<p><strong>Inuhanyou</strong>: Beta Testing.</p>
+
+<p><strong>SkitZoFrenic</strong>: Beta Testing.</p>
+
+<p><strong>Ownsin</strong>: Beta Testing.</p>
+
+<p><strong>UnlimitedBladeWorks</strong>: Beta Testing.</p>
+
+<p><strong>Taka-jun, ArchDemon, Tjm, and puKKa from Mirror Moon</strong>: Original translation.</p>
+
+<p><strong>bishopcruz and Annonymous</strong>: First H uncensor patch.</p>
+
+<p><strong>Himeros and Belldandy100</strong>: Second H uncensor patch.</p>
+
+<h4 id="special-thanks">Special Thanks</h4>
+
+<p>Special thanks to any other BL members who helped out.</p>
+
+<h2 id="version-history">Version History</h2>
+
+<ul>
+<li>0.9.0 Public Beta</li>
+</ul>
+
+<div id="down"><a href="#up">Вверх</a></div> 
+<div><a href="index.html">Главная страница</a></div>
+
+</body>
+
+</html>
